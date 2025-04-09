@@ -100,7 +100,7 @@ export default function Work() {
                       ))}
                     </Column>
                     {experience.images.length > 0 && (
-                      <Flex fillWidth paddingTop="m" paddingLeft="40" wrap>
+                      <Flex fillWidth paddingTop="m" paddingLeft="40" wrap gap="16">
                         {experience.images.map((image, index) => (
                           <Flex
                             key={index}
@@ -110,6 +110,8 @@ export default function Work() {
                             minWidth={image.width}
                             //@ts-ignore
                             height={image.height}
+                            gap="8"
+                            padding="8"
                           >
                             <SmartImage
                               enlarge

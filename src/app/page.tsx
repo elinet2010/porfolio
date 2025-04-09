@@ -85,6 +85,7 @@ export default function Home() {
             </Text>
           </RevealFx>
           <RevealFx translateY="12" delay={0.4} horizontal="center">
+            <Flex gap="16">
             <Button
               id="about"
               data-border="rounded"
@@ -103,7 +104,23 @@ export default function Home() {
                 )}
                 {about.title}
               </Flex>
-            </Button>
+              </Button>
+              <Button
+              id="document"
+              data-border="rounded"
+              href="/documents/mi-cv.pdf"
+              target="_blank"
+              variant="secondary"
+              size="m"
+              arrowIcon
+            >
+              <Flex gap="8" vertical="center">
+                Descargar CV
+              </Flex>
+              </Button>
+            </Flex>
+            
+            
           </RevealFx>
         </Column>
       </Column>

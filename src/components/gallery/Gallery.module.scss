@@ -2,13 +2,15 @@
     display: flex;
     margin-left: calc(-1 * var(--static-space-16));
     width: 100%;
+    gap: 24px;
 }
 
 .masonryGridColumn {
     padding-left: var(--static-space-16);
     background-clip: padding-box;
+    padding-bottom: 16px;
 }
 
 .gridItem {
-    margin-bottom: var(--static-space-16);
+    margin-bottom: var(--static-space-32);
 }

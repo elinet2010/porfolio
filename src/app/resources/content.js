@@ -50,8 +50,7 @@ const home = {
 	headline: <>Elizabeth Velásquez</>,
 	subline: (
 		<>
-			Desarrolladora Frontend con más de 5 años de experiencia en el
-			desarrollo de aplicaciones web.
+			Desarrolladora web, Especialista en Front-end con experiencia en la creación de interfaces web. <br/> <br/>Experta en React.js, Next.js, Gatsby y Redux.
 		</>
 	),
 };
@@ -113,15 +112,17 @@ const about = {
 						Colaboración con equipos de diseño y producto para crear
 						experiencias de usuario intuitivas.
 					</>,
-					<>
-						Desarrollo de aplicaciones web escalables y optimizadas
-						para SEO utilizando React.js y Next.js.
-					</>,
 				],
 				images: [
 					// optional: leave the array empty if you don't want to display images
 					{
 						src: "/images/projects/project-01/cover-01.jpg",
+						alt: "Habi Project",
+						width: 16,
+						height: 9,
+					},
+          {
+						src: "/images/projects/project-01/cover-02.jpg",
 						alt: "Habi Project",
 						width: 16,
 						height: 9,
@@ -143,7 +144,21 @@ const about = {
 						escalabilidad.
 					</>,
 				],
-				images: [],
+				images: [
+					// optional: leave the array empty if you don't want to display images
+					{
+						src: "/images/projects/project-01/cover-03.jpg",
+						alt: "Habi Project",
+						width: 16,
+						height: 9,
+					},
+          {
+						src: "/images/projects/project-01/cover-04.jpg",
+						alt: "Habi Project",
+						width: 16,
+						height: 9,
+					},
+				],
 			},
 		],
 	},
@@ -164,7 +179,7 @@ const about = {
 		],
 	},
 	technical: {
-		display: true, // set to false to hide this section
+		display: false, // set to false to hide this section
 		title: "Skills",
 		skills: [
 			{
