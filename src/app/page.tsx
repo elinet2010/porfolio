@@ -108,7 +108,7 @@ export default function Home() {
               <Button
               id="document"
               data-border="rounded"
-              href="/documents/mi-cv.pdf"
+              href="/public/documents/mi-cv.pdf"
               target="_blank"
               variant="secondary"
               size="m"
