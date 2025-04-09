@@ -114,15 +114,15 @@ export default function Project({ params }: WorkParams) {
           src={post.metadata.images[0]}
         />
       )}
-      <Column style={{ margin: "auto" }} as="article" maxWidth="xs">
-        <Flex gap="12" marginBottom="24" vertical="center">
+      {/* <Column style={{ margin: "auto" }} as="article" maxWidth="xs">
+        <Flex gap="12" marginBottom="24" vertical="center">dfsf
           {post.metadata.team && <AvatarGroup reverse avatars={avatars} size="m" />}
           <Text variant="body-default-s" onBackground="neutral-weak">
             {post.metadata.publishedAt && formatDate(post.metadata.publishedAt)}
           </Text>
         </Flex>
         <CustomMDX source={post.content} />
-      </Column>
+      </Column> */}
       <ScrollToHash />
     </Column>
   );

@@ -115,7 +115,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: NewsletterProps }) => {
       <Heading style={{ position: "relative" }} marginBottom="s" variant="display-strong-xs">
         {newsletter.title}
       </Heading>
-      <Text
+      {/* <Text
         style={{
           position: "relative",
           maxWidth: "var(--responsive-width-xs)",
@@ -125,7 +125,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: NewsletterProps }) => {
         onBackground="neutral-medium"
       >
         {newsletter.description}
-      </Text>
+      </Text> */}
       <form
         style={{
           width: "100%",
