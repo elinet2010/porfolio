@@ -18,10 +18,10 @@ export async function generateMetadata() {
     title: home.title,
     description: home.description,
     openGraph: {
-      title: `${person.firstName}'s Portfolio`,
-      description: "Portfolio website showcasing my work.",
+      title: `${person.firstName} ${person.lastName} - Portfolio`,
+      description: "Pagina construida con Once UI, Next.js - Portafolio",
       url: baseURL,
-      siteName: `${person.firstName}'s Portfolio`,
+      siteName:  `${person.firstName} ${person.lastName} - Portfolio`,
       locale: "en_US",
       type: "website",
     },
