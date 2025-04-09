@@ -105,16 +105,20 @@ export default function Home() {
                 {about.title}
               </Flex>
               </Button>
-              <a
+              <Button
               id="document"
               data-border="rounded"
               href="/documents/mi-cv.pdf"
               target="_blank"
+              variant="secondary"
+              size="m"
+              arrowIcon
+              download
             >
               <Flex gap="8" vertical="center">
                 Descargar CV
               </Flex>
-              </a>
+              </Button>
             </Flex>
             
             
