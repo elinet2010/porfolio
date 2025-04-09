@@ -4,6 +4,7 @@ import { Heading, Flex, Text, Button, Avatar, RevealFx, Column } from "@/once-ui
 import styles from "@/components/about/about.module.scss";
 import { baseURL } from "@/app/resources";
 import { home, about, person } from "@/app/resources/content";
+import { Head } from "next/document";
 
 export async function generateMetadata() {
   const title = home.title;
@@ -37,6 +38,9 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <Column maxWidth="m" gap="xl" horizontal="center">
+      <Head>
+        <link rel="icon" href={`${baseURL}/images/avatar.jpg`} sizes="any" />
+      </Head>
       <script
         type="application/ld+json"
         suppressHydrationWarning
